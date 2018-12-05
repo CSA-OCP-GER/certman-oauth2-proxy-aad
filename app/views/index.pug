@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= "Header Values"
+  table
+    thead
+      tr
+        th Header
+        th Value
+    each val, t in values
+      tr
+        td= t
+        td= val
