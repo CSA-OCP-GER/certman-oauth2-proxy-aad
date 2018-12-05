@@ -7,7 +7,7 @@ $ kubectl apply -f helm-rbac.yaml
 $ helm init --service-account tiller
 ```
 
-## Install Cert-Manager ##
+## Install Cert-Manager / Let's Encrypt certificate issuer ##
 
 ```bash
 $ helm install stable/cert-manager --name cert-manager \
